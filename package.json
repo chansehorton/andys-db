@@ -2,5 +2,15 @@
   "name": "andys-db",
   "version": "1.0.0",
   "main": "server.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "knex": "^0.13.0",
+    "pg": "^7.1.2"
+  },
+  "devDependencies": {
+
+  }
 }
