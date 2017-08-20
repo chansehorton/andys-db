@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
     table.integer('person-id').references('id').inTable('Person');
     table.integer('company-id').references('id').inTable('Company');
   })
-};
+};  
 
 exports.down = function(knex, Promise) {
   return knex.schema.dropTable('Phone-Number');

@@ -20,7 +20,7 @@ exports.up = function(knex, Promise) {
     table.string('religion');
     table.string('church');
     table.string('party');
-    table.string('note');
+    table.string('note', 512);
     table.timestamps(true, true);
   })
 };
