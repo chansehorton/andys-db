@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 app.use('/contacts', contacts);
 
-app.use('*', function(req, res, _next) {
+app.use('*', function(req, res) {
   res.sendFile('index.html', {root: path.join(__dirname, '/app/public')});
 });
 
